@@ -1,0 +1,25 @@
+{
+    "compileOnSave": true,
+    "include": [
+        "./src",
+        "./src/**/*",
+        "../../@types"
+    ],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "rootDir": "./",
+        "baseUrl": "./",
+        "types": ["twin.macro"],
+        "paths": {
+            "lib": [
+                "dom"
+            ]
+        }
+    },
+}

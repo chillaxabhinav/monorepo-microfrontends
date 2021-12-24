@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "name": "@ixigo/train",
+  "main": "./src/withContainer.ts",
+  "license": "ISC",
+  "scripts": {
+    "test-coverage": "scripty",
+    "test-watch": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "IE 10"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

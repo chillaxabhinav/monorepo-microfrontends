@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "name": "@ixigo/container",
+  "main": "./src/withSSR.ts",
+  "license": "ISC",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ../../node_modules/@ixigo/meteor/webpack/config/webpack.config.js",
+    "test-coverage": "scripty",
+    "test-watch": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "IE 10"
+  ],
+  "devDependencies": {}
+}
